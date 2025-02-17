@@ -11,6 +11,40 @@ This repository contains solutions to various programming problems and exercises
 
 ### Installation
 
+##########################################################################################################################
+In Java, the syntax of an if condition is as follows:
+
+if (condition) {
+    // Code to execute if the condition is true
+}
+
+Example:
+
+int num = 10;
+
+if (num > 0) {
+    System.out.println("The number is positive.");
+}
+
+if-else statement:
+
+if (num > 0) {
+    System.out.println("Positive number");
+} else {
+    System.out.println("Non-positive number");
+}
+
+if-else if-else statement:
+
+if (num > 0) {
+    System.out.println("Positive number");
+} else if (num < 0) {
+    System.out.println("Negative number");
+} else {
+    System.out.println("Zero");
+}
+##################################################################################################################################
+
 #### some qustion and problam 
   /*
      * 
