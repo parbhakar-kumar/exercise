@@ -68,23 +68,52 @@ public static void main(String[]args){
 // }
 
 //*****************Write a program that takes three numbers as input and determines the largest among them. */
- Scanner scanner = new Scanner(System.in);
-System.out.print("Enter your first number ");
-int a1 = scanner.nextInt();
-System.out.println("Enter your second number ");
-int b2 = scanner.nextInt();
-System.out.println("Enter your third number");
-int c3 = scanner.nextInt();
-if(a1>=b2&&b2>=a1){
-     System.out.println("The largest number is " + a1);
-}else if (b2>=a1&&b2>=c3) {
-     System.out.println("The largest number is " + b2);
+//  Scanner scanner = new Scanner(System.in);
+// System.out.print("Enter your first number ");
+// int a1 = scanner.nextInt();
+// System.out.println("Enter your second number ");
+// int b2 = scanner.nextInt();
+// System.out.println("Enter your third number");
+// int c3 = scanner.nextInt();
+// if(a1>=b2&&b2>=a1&&a1>=b2&&b2<=a1){
+//      System.out.println("The largest number is " + a1);
+// }else if (b2>=a1&&b2>=c3) {
+//      System.out.println("The largest number is " + b2);
     
-}else{
-     System.out.println("The largest number is " + c3);
-}
+// }else if(a1==b2&&b2==a1&&a1==c3&&c3==b2){
+//      System.out.println("All number is equle" );
+// }
 
 
+
+//*****************************************Create a program that checks if a given character is a vowel or a consonant.***********************************************
+
+ Scanner scanner = new Scanner(System.in);
+//  System.out.print("Enter your character ");
+//  char ch = scanner.next().charAt(0);
+//  if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'
+//    ||ch=='A'||ch=='E'||ch=='I'||ch=='o'||ch=='U'){
+//      System.out.println("this is vowel");   
+
+//  }else{
+//      System.out.println("this is consonant");
+//  }
+ 
+
+// **********************Write a program that takes a person's age as input and categorizes them as a child, teenager, adult, or senior citizen.********************
+
+ System.out.print("Enter your Age");
+ int Age = scanner.nextInt();
+ if(Age<=13){
+     System.out.println("You are a child");
+
+ }else if (Age<=18){
+     System.out.println("You are a teenager");
+ }else if(Age<=30){
+     System.out.println("You are an adult");
+ }else{
+     System.out.println("You are a senior citizen");
+ }
 
 
 }

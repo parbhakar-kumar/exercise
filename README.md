@@ -80,23 +80,23 @@ Create a program that checks if a number is divisible by both 3 and 5.
 
 
 
-Largest of Three Numbers:
+1)Largest of Three Numbers:
 
 Write a program that takes three numbers as input and determines the largest among them.
 
-Vowel or Consonant:
+2)Vowel or Consonant:
 
 Create a program that checks if a given character is a vowel or a consonant.
 
-Age Group: 
+3)Age Group: 
 
 Write a program that takes a person's age as input and categorizes them as a child, teenager, adult, or senior citizen.
 
-Simple Calculator: 
+4)Simple Calculator: 
 
-Implement a simple calculator that performs addition, subtraction, multiplication, and division based on user input.
+5)Implement a simple calculator that performs addition, subtraction, multiplication, and division based on user input.
 
-Day of the Week: 
+6)Day of the Week: 
 
 Write a program that takes a number (1-7) as input and prints the corresponding day of the week.
 
