@@ -259,7 +259,7 @@ Write a program that calculates simple interest based on principal, rate, and ti
 
 These problems can be used for practice, coding interviews, or as exercises in a programming course. If you need help with any specific problem or want to see a solution, feel free to ask!
 
-You
+########################################################LOOP###########################################################################
 
 1. Factorial Calculation
 Problem: Write a program that calculates the factorial of a given number using a loop.
