@@ -1,21 +1,21 @@
 package exercise;
+import java.util.Scanner;
 public class Problam {
 public static void main(String[]args){
     
      //*********Write a program that takes an integer input from the user and reverses it. *********/
-     Scanner scanner = new Scanner(System.in);
-     System.out.print("Enter an integer: ");
-     int number = scanner.nextInt();
-     int reversedNumber = 0;
+//   canner scanner = new Scanner(System.in);
+//      System.out.print("Enter an integer: ");
+//      int number = scanner.nextInt();
+//      int reversSedNumber = 0;
 
-     while (number != 0) {
-         int digit = number % 10; // Get the last digit
-         reversedNumber = reversedNumber * 10 + digit; // Append it to the reversed number
-         number /= 10; // Remove the last digit from the original number
-     }
-
-     System.out.println("Reversed number: " + reversedNumber);
-     scanner.close();
+//      while (number != 0) {
+//          int digit = number % 10; // Get the last digit
+//          reversedNumber = reversedNumber * 10 + digit; // Append it to the reversed number
+//          number /= 10; // Remove the last digit from the original number
+//      }
+//      System.out.println("Reversed number: " + reversedNumber);
+//      scanner.close();
      // //creat scanner object to tacke user input 
      // Scanner scanner = new Scanner(System.in);    
     // //prompt the user to enter an interger
@@ -53,19 +53,6 @@ public static void main(String[]args){
      
 // ********************************************** Write a program that checks if a given year is a leap year.*************************************
 //      Scanner scanner = new Scanner(System.in);
-//      System.out.print("Enter a year ");
-//      int year = scanner.nextInt();
-//      if (year%4==0){
-//           System.out.println("this is leap yeaer");
-//      }else{
-//           System.out.println("this is not leap year");
-//      }
-
-//****************************Create a program that checks if a number is divisible by both 3 and 5. */
-// Scanner scanner = new Scanner(System.in);
-// System.out.print("Enter your number ");
-// int number = scanner.nextInt();
-// if(number%3==0&&number%5==0){
 //      System.out.println(number + " is divisible by both 3 and 5");
 // }else{
 //      System.out.println(number +"is not divisible by both 3 and 5");
@@ -113,15 +100,25 @@ public static void main(String[]args){
 //  }
 
 //**************/ Create a program that calculates the Body Mass Index (BMI) and categorizes the result (underweight, normal, overweight, obese).***************
-// Scanner scanner = new Scanner(System.in);
-// System.out.print("Enter your weight in kg ");
-// double weight = scanner.nextDouble();
-// System.out.print("Enter your height in meters ");
-// double height = scanner.nextDouble();
-// double bmi = weight / (height * height);
-// if (bmi <18.5){
-//     System.out.println("Your BMI is " + bmi + " and you are underweight");
-// }else if( 18.5<=bmi&&bmi<25){
-//     System.out.println("Your BMI is " + bmi + " and you are normal");
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter your weight in kg ");
+double weight = scanner.nextDouble();
+System.out.print("Enter your height in meters ");
+double height = scanner.nextDouble();
+double bmi = weight / (height * height);
+if (bmi <18.5){
+    System.out.println("Your BMI is " + bmi + " and you are underweight");
+}else if( 18.5<=bmi&&bmi<25){
+    System.out.println("Your BMI is " + bmi + " and you are normal");
 
-// }else{
+}else{
+    System.out.println("Your BMI is " + bmi + " and you are overweight");
+}
+
+
+
+
+}
+
+
+}
