@@ -3,7 +3,7 @@ package exercise;
 import java.util.Scanner;
 
 public class loopproblam {
-    // *****************************Problem: Write a program that calculates the factorial of a given number using a loop.*****************************************
+    //********Problem: Write a program that calculates the factorial of a given number using a loop.**********
     
    //  public static void main (String[]args){
    //    Scanner scanner = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class loopproblam {
    //    scanner.close();
    //  }
 
-   //*************************** Problem: Create a program that prints the Fibonacci series up to a specified number of terms.***************************************
+   //************** Problem: Create a program that prints the Fibonacci series up to a specified number of terms.*******************
    // public static void main(String[]ares){
    //    Scanner scanner = new Scanner (System.in);
    //    System.out.print("Enter number of term for Fibonaci Serries");
@@ -42,7 +42,7 @@ public class loopproblam {
 
    // }
 
-   //**************************************Problem: Write a program that calculates the sum of the first N natural numbers.****************************************
+   //***********Problem: Write a program that calculates the sum of the first N natural numbers.***********
 //     public static  void main(String[]ages){
 //       Scanner scanner = new Scanner(System.in);
 //       System.out.print("Enter number of term for sum of first N natural numbers");
@@ -59,7 +59,7 @@ public class loopproblam {
 //     }
 
 
-//********************** */ Create a program that prints the multiplication table of a given number.*************************
+//************** */ Create a program that prints the multiplication table of a given number.***********
 // public  static void main (String []ages){
 //     Scanner scanner = new Scanner(System.in);
 //     System.out.print("Enter number for multiplication table");
@@ -69,19 +69,19 @@ public class loopproblam {
 //     }  
 // }
 
-//**********************************Problem: Write a program that reverses a given integer.****************************
- public static void main (String[]args){
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Enter number to reverse");
-    int num = scanner.nextInt();
-    int reversedNumber = 0;
-    while(num!=0){
-        int digit = num%10;
-        reversedNumber = reversedNumber* 10+digit;
-        num = num/10;
-    }
-    System.out.println("Reversed number is "+ reversedNumber);
- }
+//*************************Problem: Write a program that reverses a given integer.******************
+//  public static void main (String[]args){
+//     Scanner scanner = new Scanner(System.in);
+//     System.out.print("Enter number to reverse");
+//     int num = scanner.nextInt();
+//     int reversedNumber = 0;
+//     while(num!=0){
+//         int digit = num%10;
+//         reversedNumber = reversedNumber* 10+digit;
+//         num = num/10;
+//     }
+//     System.out.println("Reversed number is "+ reversedNumber);
+//  }
 
- 
+// Problem: Write a program that checks if a given number is prime and prints all prime numbers up to that number.
 }

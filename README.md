@@ -332,19 +332,8 @@ Input:
 .
 Number: 12345
 Output:
-
-.
-.
 Reversed number: 54321
-These problems can help you practice using loops in Java. If you need help with the implementation of any of these problems, feel free to ask!
 
-You
-
-3 more
-
-BLACKBOXAI
-
-Sure! Here are 3 additional Java problems that involve loops, along with their input and output examples.
 
 6. Prime Number Checker
 Problem: Write a program that checks if a given number is prime and prints all prime numbers up to that number.
