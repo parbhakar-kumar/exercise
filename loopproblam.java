@@ -86,19 +86,21 @@ public class loopproblam {
 // Problem: Write a program that checks if a given number is prime and prints all prime numbers up to that number.
 
 // Problem: Create a program that prints a right-angled triangle pattern of asterisks based on the number of rows specified by the user.
- public static  void main (String[]args){
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("enter number");
-    int num = scanner.nextInt();
-    for(int i =1;i<=num;i++ ){
-        for(int j=1; j<=i; j++){
-            System.out.print("*");
-        }
-        System.out.println();
-    }
+//  public static  void main (String[]args){
+//     Scanner scanner = new Scanner(System.in);
+//     System.out.print("enter number");
+//     int num = scanner.nextInt();
+//     for(int i =1;i<=num;i++ ){
+//         for(int j=1; j<=i; j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//     }
     
 
- }
+//  }
+
+
 
 
 
