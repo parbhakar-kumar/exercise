@@ -98,19 +98,31 @@ public class loopproblam {
 //     }
     
 
-public static void main(String[]args)
-{
+// public static void main(String[]args)
+// {
+//     Scanner scanner = new Scanner(System.in);
+//     System.out.print("Enter size");
+//     int num = scanner.nextInt();
+//     for(int row=1;row<num;row++){
+//         for(int col =1; col<num;col++)
+//         System.out.print("*");
+//         System.out.println();
+//     }
+   
+// }
+
+public static void main (String[]arge){
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter size");
-    int num = scanner.nextInt();
-    for(int row=1;row<num;row++){
-        for(int col =1; col<num;col++)
-        System.out.print("*");
+    int n= scanner.nextInt();
+    for(int row =1; row<=n;row++){
+        for(int col=1;col<=n;col++)
+        // System.out.print(col);
+        System.out.print(row);
         System.out.println();
-    }
-   
-}
 
+    }
+}
 
 
 }
