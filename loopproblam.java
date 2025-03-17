@@ -124,19 +124,34 @@ public class loopproblam {
 //     }
 // }
 
-public static void main(String[]args){
-    char ch = 'A';
+// public static void main(String[]args){
+//     char ch = 'A';
 
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("enter size");
-    int n = scanner.nextInt();
-    for (int row=1;row<=n;row++) {
-        for(int col=1;col<=n;col++)
-        System.out.print(ch++);
-        System.out.println();
+//     Scanner scanner = new Scanner(System.in);
+//     System.out.print("enter size");
+//     int n = scanner.nextInt();
+//     for (int row=1;row<=n;row++) {
+//         for(int col=1;col<=n;col++)
+//         // System.out.print(ch++);
+//         // System.out.print(ch);
+//         System.out.println();
 
-    }
+//     }
     
+// }
+
+public  static void main(String[]args){
+    Scanner scanner=new Scanner(System.in);
+    System.out.print("Enter size");
+    int n= scanner.nextInt();
+    for(int row=1;row<=n;row++){
+        char ch='A';
+        for(int col=1;col<=n;col++){
+            System.out.print(ch);
+            ch=(char)(ch+1);
+        }
+        System.out.println();
+    }
 }
 
 }
